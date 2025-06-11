@@ -7,8 +7,8 @@ const fadeInUp = {
   visible: (i = 1) => ({
     opacity: 1,
     y: 0,
-    transition: { delay: i * 0.2, duration: 0.6, ease: "easeOut" }
-  })
+    transition: { delay: i * 0.2, duration: 0.6, ease: "easeOut" },
+  }),
 };
 
 const Contact = () => {
@@ -49,7 +49,6 @@ const Contact = () => {
         initial={{ opacity: 0, y: -80 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.1 }}
-        /* 🔹 animate every time it enters view */
         viewport={{ once: false, amount: 0.4 }}
         className="pt-5 my-16 text-center text-5xl font-bold tracking-tight text-purple-400"
       >
@@ -61,10 +60,9 @@ const Contact = () => {
         <motion.form
           ref={formRef}
           onSubmit={sendEmail}
-          /* Staggered children animation */
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: false, amount: 0.3 }}  
+          viewport={{ once: false, amount: 0.3 }}
           className="w-full max-w-2xl space-y-8 p-6 rounded-xl border border-neutral-800 bg-neutral-950 shadow-lg"
         >
           <motion.div custom={1} variants={fadeInUp}>
@@ -73,7 +71,7 @@ const Contact = () => {
             </label>
             <input
               type="text"
-              name="user_name"
+              name="from_name"
               placeholder="Aditya Thakur"
               required
               className="w-full rounded-md bg-neutral-900 p-4 text-sm font-medium text-purple-100 placeholder-purple-500 border border-purple-600/50 focus:outline-none focus:ring-2 focus:ring-purple-500"
@@ -86,7 +84,7 @@ const Contact = () => {
             </label>
             <input
               type="email"
-              name="user_email"
+              name="reply_to"
               placeholder="example@gmail.com"
               required
               className="w-full rounded-md bg-neutral-900 p-4 text-sm font-medium text-purple-100 placeholder-purple-500 border border-purple-600/50 focus:outline-none focus:ring-2 focus:ring-purple-500"
@@ -94,6 +92,29 @@ const Contact = () => {
           </motion.div>
 
           <motion.div custom={3} variants={fadeInUp}>
+            <label className="block text-sm font-semibold mb-2 text-purple-300">
+              Phone
+            </label>
+            <input
+              type="text"
+              name="phone"
+              placeholder="+91 9876543210"
+              className="w-full rounded-md bg-neutral-900 p-4 text-sm font-medium text-purple-100 placeholder-purple-500 border border-purple-600/50 focus:outline-none focus:ring-2 focus:ring-purple-500"
+            />
+          </motion.div>
+
+          <motion.div custom={4} variants={fadeInUp}>
+            <label className="block text-sm font-semibold mb-2 text-purple-300">
+              Date
+            </label>
+            <input
+              type="date"
+              name="date"
+              className="w-full rounded-md bg-neutral-900 p-4 text-sm font-medium text-purple-100 border border-purple-600/50 focus:outline-none focus:ring-2 focus:ring-purple-500"
+            />
+          </motion.div>
+
+          <motion.div custom={5} variants={fadeInUp}>
             <label className="block text-sm font-semibold mb-2 text-purple-300">
               Message
             </label>
@@ -106,7 +127,7 @@ const Contact = () => {
             ></textarea>
           </motion.div>
 
-          <motion.div custom={4} variants={fadeInUp}>
+          <motion.div custom={6} variants={fadeInUp}>
             <motion.button
               type="submit"
               whileHover={{ scale: 1.05 }}
@@ -117,7 +138,6 @@ const Contact = () => {
             </motion.button>
           </motion.div>
 
-          {/* Feedback Message */}
           {successMsg && (
             <div className="text-center text-sm font-semibold text-green-400 pt-2">
               {successMsg}
