@@ -90,30 +90,6 @@ const Contact = () => {
               className="w-full rounded-md bg-neutral-900 p-4 text-sm font-medium text-purple-100 placeholder-purple-500 border border-purple-600/50 focus:outline-none focus:ring-2 focus:ring-purple-500"
             />
           </motion.div>
-
-          <motion.div custom={3} variants={fadeInUp}>
-            <label className="block text-sm font-semibold mb-2 text-purple-300">
-              Phone
-            </label>
-            <input
-              type="text"
-              name="phone"
-              placeholder="+91 9876543210"
-              className="w-full rounded-md bg-neutral-900 p-4 text-sm font-medium text-purple-100 placeholder-purple-500 border border-purple-600/50 focus:outline-none focus:ring-2 focus:ring-purple-500"
-            />
-          </motion.div>
-
-          <motion.div custom={4} variants={fadeInUp}>
-            <label className="block text-sm font-semibold mb-2 text-purple-300">
-              Date
-            </label>
-            <input
-              type="date"
-              name="date"
-              className="w-full rounded-md bg-neutral-900 p-4 text-sm font-medium text-purple-100 border border-purple-600/50 focus:outline-none focus:ring-2 focus:ring-purple-500"
-            />
-          </motion.div>
-
           <motion.div custom={5} variants={fadeInUp}>
             <label className="block text-sm font-semibold mb-2 text-purple-300">
               Message
