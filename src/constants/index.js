@@ -47,8 +47,8 @@ export const PROJECTS = [
   description:
     "A personal portfolio website that highlights my background, education and showcases my technical skills, projects, and contact information.",
   technologies: ["HTML", "Javascript", "Tailwind CSS", "React", "Node.js", "MongoDB"],
-  codeLink: "https://github.com/yourusername/portfolio",
-  liveLink: "https://yourportfolio.vercel.app"
+  codeLink: "https://github.com/Adityabt/MyPortfolio",
+  liveLink: "https://my-portfolio-git-main-adityabts-projects.vercel.app/"
 },
   //{
   //  title: "ChatBot AI",
