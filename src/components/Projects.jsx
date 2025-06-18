@@ -84,7 +84,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 rounded-lg border border-purple-700/60 px-5 py-2 text-sm font-medium text-white transition hover:bg-purple-800/60"
                   >
-                    <FaGithub className="text-lg" /> GitHub
+                    <FaGithub className="text-lg" /> &lt; GitHub /&gt;
                   </a>
                 )}
 
