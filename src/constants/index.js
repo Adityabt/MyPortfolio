@@ -59,7 +59,7 @@ export const PROJECTS = [
     liveLink: "https://my-portfolio-git-main-adityabts-projects.vercel.app/",
   },
   {
-    title: "ChatBot AI",
+    title: "Ai ChatBot",
     image: project4,
     description: "An AI website having answers to all questions.",
     technologies: [
