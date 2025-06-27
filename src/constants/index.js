@@ -50,11 +50,11 @@ export const PROJECTS = [
   codeLink: "https://github.com/Adityabt/MyPortfolio",
   liveLink: "https://my-portfolio-git-main-adityabts-projects.vercel.app/"
 },
-  //{
-  //  title: "ChatBot AI",
-  //  image: project3,
-  //  description:
-  //    "An AI website having answers to all questions.",
-  //  technologies: ["HTML", "Javascript", "Tailwind CSS", "React", "Node.js", "MongoDB"],
-  //}
+  {
+    title: "Ai ChatBot",
+    image: project3,
+    description:
+      "An AI website having answers to all questions.",
+    technologies: ["HTML", "Javascript", "CSS", "React", "Node.js", "Express.js", "Claude 3 Haiku API"],
+  }
   ]
