@@ -22,16 +22,14 @@ export const EDUCATION = [
       "React.js",
       "Tailwind CSS",
       "Node.js",
-      "Mongodb",
+      "MongoDB",
     ],
   },
   {
     year: "2022 - 2023",
     role: "12th Class",
     company: "PSBB Learning Leadership Academy, Bangalore",
-    description: `Passed with 76% in 12th Board exams
-
-`,
+    description: `Passed with 76% in 12th Board exams`,
     technologies: [],
   },
   {
@@ -44,13 +42,6 @@ export const EDUCATION = [
 ];
 
 export const PROJECTS = [
-  //{
-  //  title: "DSA Quiz Web-App",
-  //  image: project1,
-  //  description:
-  //    "A fully functional and interactive quiz web-app on topics related to Data Structures and Algorithms.",
-  //  technologies: ["HTML", "JavaScript","CSS", "Node.js", "MongoDB"],
-  //},
   {
     title: "Portfolio Website",
     image: project3,
