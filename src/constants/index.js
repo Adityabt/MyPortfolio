@@ -13,7 +13,17 @@ export const EDUCATION = [
     role: "B.Tech Electronics & Computer Engineering",
     company: "SRM Institute Of Science & Technology, Kattankulathur",
     description: `Currently pursuing a B.Tech degree at SRMIST. I have achieved a 9.00 GPA in my first semester, 9.2 GPA in second semester and 8.4 GPA in third semester with a cummulative GPA of 8.9.`,
-    technologies: ["Python", "C", "C++", "HTML", "Javascript", "React.js", "Tailwind CSS","Node.js", "Mongodb"],
+    technologies: [
+      "Python",
+      "C",
+      "C++",
+      "HTML",
+      "Javascript",
+      "React.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Mongodb",
+    ],
   },
   {
     year: "2022 - 2023",
@@ -42,19 +52,35 @@ export const PROJECTS = [
   //  technologies: ["HTML", "JavaScript","CSS", "Node.js", "MongoDB"],
   //},
   {
-  title: "Portfolio Website",
-  image: project3,
-  description:
-    "A personal portfolio website that highlights my background, education and showcases my technical skills, projects, and contact information.",
-  technologies: ["HTML", "Javascript", "Tailwind CSS", "React", "Node.js", "MongoDB"],
-  codeLink: "https://github.com/Adityabt/MyPortfolio",
-  liveLink: "https://my-portfolio-git-main-adityabts-projects.vercel.app/"
-},
-  //{
-  //  title: "ChatBot AI",
-  //  image: project3,
-  //  description:
-  //    "An AI website having answers to all questions.",
-  //  technologies: ["HTML", "Javascript", "Tailwind CSS", "React", "Node.js", "MongoDB"],
-  //}
-  ]
+    title: "Portfolio Website",
+    image: project3,
+    description:
+      "A personal portfolio website that highlights my background, education and showcases my technical skills, projects, and contact information.",
+    technologies: [
+      "HTML",
+      "Javascript",
+      "Tailwind CSS",
+      "React",
+      "Node.js",
+      "MongoDB",
+    ],
+    codeLink: "https://github.com/Adityabt/MyPortfolio",
+    liveLink: "https://my-portfolio-git-main-adityabts-projects.vercel.app/",
+  },
+  {
+    title: "ChatBot AI",
+    image: project4,
+    description: "An AI website having answers to all questions.",
+    technologies: [
+      "HTML",
+      "Javascript",
+      "CSS",
+      "React",
+      "Node.js",
+      "Express.js",
+      "Claude 3 Haiku API",
+    ],
+    codeLink: "https://github.com/Adityabt/Ai-Chatbot.git",
+    liveLink: "https://ai-chatbot-adityabts-projects.vercel.app/",
+  },
+];
