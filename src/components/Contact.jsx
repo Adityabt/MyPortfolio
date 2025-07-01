@@ -72,7 +72,7 @@ const Contact = () => {
             <input
               type="text"
               name="from_name"
-              placeholder="Aditya Thakur"
+              placeholder="Name"
               required
               className="w-full rounded-md bg-neutral-900 p-4 text-sm font-medium text-purple-100 placeholder-purple-500 border border-purple-600/50 focus:outline-none focus:ring-2 focus:ring-purple-500"
             />
