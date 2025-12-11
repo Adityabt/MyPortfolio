@@ -1,4 +1,4 @@
-import logo from "../assets/adityaThakurLogo.png";
+import logo from "../assets/adityaThakurLogo2.png";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { motion } from "framer-motion";
